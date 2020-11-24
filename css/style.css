@@ -1,0 +1,709 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name: Syrah - Wine Shop Html Template         |
+  |    Author: themesitem                                     |
+  |    Author Email: themesitem.cit@gmail.com                 |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Page 
+        |----> Header css
+        |----> Sticky header css
+        |----> Banner Css
+        |----> About Css
+        |----> Product Css
+        |----> Event Css
+        |----> Offer Css
+        |----> Updates Css
+        |----> Footer Css
+        |----> Copyright Css
+3. Our Story Page
+        |----> Inner Page Title css
+        |----> About Part css
+        |----> Achievement Css
+4. Our Product Page
+5. Contact page
+        |----> Left img css
+        |----> Contact-form Css
+6. Error404 Page
+7. Blog-Details
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+/* Google Fonts Css */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arimo:400,700|Great+Vibes|Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    vertical-align: middle;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+a,
+button {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #003059;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #7d7c7c;
+    font-family: 'Lato', sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/*== All Button Style ==*/
+
+.theme_btn {}
+
+.theme_btn:hover {}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*===========================
+    Index Page Css Start 
+===========================*/
+
+
+/* ----- 2. Header Social and Contact ----- */
+
+.checkout_gurop {
+    padding: 15px 40px;
+    margin-bottom: 100px;
+}
+
+.checkout_gurop .logo {
+    display: block;
+}
+
+.checkout_gurop .logo img {
+    height: 100px;
+}
+
+.checkout_gurop .logo img {}
+
+.checkout_gurop ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.checkout_gurop ul li {
+    display: inline-block;
+    color: #7d7c7c;
+    font-size: 15px;
+    margin-right: 8px;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.checkout_gurop ul li.active,
+.checkout_gurop ul li:hover {
+    color: #000000;
+}
+
+.checkout_gurop ul li i {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.checkout_gurop .express_checkout {
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 30px 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.checkout_gurop .express_checkout h2 {
+    position: absolute;
+    background: #fff;
+    font-size: 18px;
+    top: -21px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 15px;
+}
+
+.checkout_gurop .express_checkout a {
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.checkout_gurop .express_checkout .shop_pay {
+    background: #5A31F4;
+}
+
+.checkout_gurop .express_checkout .shop_pay img {}
+
+.checkout_gurop .express_checkout .shop_pay span {
+    background: #fff;
+    text-transform: capitalize;
+    padding: 0 2px;
+    border-radius: 2px;
+    text-align: left;
+    color: #755AE5;
+}
+
+.checkout_gurop .express_checkout .g_pay {
+    background: #000000;
+}
+
+.checkout_gurop .express_checkout .g_pay .google {}
+
+.checkout_gurop .express_checkout .pay_pal {
+    background: #FFC43A;
+}
+
+.checkout_gurop .express_checkout a img {
+    height: 46px;
+    padding: 10px 0;
+}
+
+.checkout_gurop .poppup {
+    text-align: center;
+}
+
+.checkout_gurop .poppup h4 {
+    color: #7d7c7c;
+    margin: 0;
+    font-size: 20px;
+}
+
+.checkout_gurop .poppup h4 button {
+    border: 0;
+    background: transparent;
+}
+
+.checkout_gurop .poppup h4 button img {
+    height: 23px;
+    margin-top: -13px;
+}
+
+
+/* ===========================================popup start */
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+.open-button {
+    cursor: pointer;
+    position: relative;
+}
+
+
+/* The popup form - hidden by default */
+
+.form-popup {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    padding: 0px 40px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+
+/* Full-width input fields */
+
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* When the inputs get focus, do something */
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit/login button */
+
+.form-container a {}
+
+.form-container a img {
+    height: 25px;
+}
+
+.form-container h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.form-container p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.form-container .prize_head {
+    margin-bottom: 20px;
+}
+
+.form-container .prize_head p {
+    display: initial;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.form-container .prize_head span {
+    color: #000;
+    font-weight: 700;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.form-container .single_prize {
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.form-container .single_prize .head {
+    margin-bottom: 40px;
+}
+
+.form-container .single_prize .head h5 {
+    display: inline;
+    float: left;
+    margin: 0;
+    color: #37AFED;
+    font-weight: 700;
+}
+
+.form-container .single_prize .head h5 span {
+    font-size: 11px;
+    color: #37AFED;
+}
+
+.form-container .single_prize .head .month {
+    display: inline;
+    float: right;
+    margin: 0;
+    background: #1C79BA;
+    color: #fff;
+    padding: 1px 18px;
+    border-radius: 5px;
+}
+
+.form-container .single_prize .body {}
+
+.form-container .single_prize .body ul {
+    display: flex;
+}
+
+.form-container .single_prize .body ul li {
+    width: 33%;
+    text-align: left;
+}
+
+.form-container .single_prize .body ul li span {
+    display: block;
+}
+
+.form-container .btn {
+    background-color: #1C79BA;
+    color: white;
+    padding: 13px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.form-container .cancel .shap1 {
+    width: 20px;
+    height: 2px;
+    background: #0FA0EA;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 46%;
+    left: 18%;
+}
+
+.form-container .cancel .shap2 {
+    width: 20px;
+    height: 2px;
+    background: #0FA0EA;
+    transform: rotate(-45deg);
+    top: 46%;
+    position: absolute;
+    left: 15%;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+
+/* ===========================================popup start */
+
+.checkout_gurop .page_link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.checkout_gurop .page_link h6 {
+    display: inline;
+    color: #7d7c7c;
+    font-weight: 700;
+}
+
+.checkout_gurop .page_link a {
+    font-weight: 700;
+    color: #000000;
+    vertical-align: middle;
+}
+
+.checkout_gurop .contactinformation_form {}
+
+.contactinformation_form .form_heading {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.contactinformation_form .form_heading h3 {
+    display: initial;
+    font-size: 18px;
+}
+
+.contactinformation_form .form_heading h4 {
+    display: initial;
+    font-size: 18px;
+    float: right;
+    margin: 0;
+}
+
+.contactinformation_form .form_heading h4 a {
+    margin-left: 5px;
+    color: #1E79B7;
+}
+
+.contactinformation_form input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+.contactinformation_form .email {
+    border: 2px solid #1E79B7;
+}
+
+.contactinformation_form .chack_box {
+    display: flex;
+}
+
+.contactinformation_form .chack_box input {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.contactinformation_form .chack_box p {
+    font-size: 12px;
+}
+
+.contactinformation_form label {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contactinformation_form .name {
+    display: flex;
+}
+
+.contactinformation_form .name .first_name {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.contactinformation_form .name .last_name {
+    width: 50%;
+}
+
+.contactinformation_form .country_adderss {
+    display: flex;
+}
+
+.contactinformation_form .country_adderss select {
+    width: 90%;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.contactinformation_form .country_adderss input {}
+
+.contactinformation_form .phone_number {}
+
+.contactinformation_form button {
+    background: #197ABE;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 100%;
+    border-radius: 6px;
+    margin-top: 25px;
+    transform: translateX(-102%);
+    width: 220px;
+    height: 70px;
+}
+
+
+/*===========================
+    FOOTER-PART CSS 
+===========================*/
+
+.discount {
+    padding-top: 115px;
+}
+
+.discount .product {
+    display: flex;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.discount .product .product_info {
+    display: flex;
+}
+
+.discount .product .product_info a {}
+
+.discount .product .product_info img {
+    height: 60px;
+}
+
+.discount .product .product_info .text {
+    margin-left: 16px;
+}
+
+.discount .product .product_info .text h4 {
+    /* margin-top: 0; */
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-right: 35px;
+}
+
+.discount .product .product_info .text p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.discount .product .prize {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.discount .discount_box {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.discount .discount_box input {
+    padding: 6px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 21px;
+    margin-top: 4px;
+}
+
+.discount .discount_box button {
+    border: 0;
+    padding: 10px 25px;
+    background: #C8C8C8;
+    color: #fff;
+    border-radius: 5px;
+    float: right;
+}
+
+.discount .subtotal_prize {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.discount .subtotal_prize .text1 {}
+
+.discount .subtotal_prize .text1 p {
+    display: initial;
+}
+
+.discount .subtotal_prize .text1 span {
+    float: right;
+    font-weight: 700;
+}
+
+.discount .subtotal_prize .text2 {
+    margin-top: 10px;
+}
+
+.discount .subtotal_prize .text2 p {
+    display: initial;
+}
+
+.discount .total_prize {
+    margin-top: 20px;
+}
+
+.discount .total_prize p {
+    display: inline;
+}
+
+.discount .total_prize p span {
+    font-size: 25px;
+    margin-left: 8px;
+    font-weight: 700;
+}

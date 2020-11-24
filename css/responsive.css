@@ -1,0 +1,481 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /*======================
+    Index Page Css
+========================*/
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .checkout_gurop .express_checkout a {
+        width: 130px;
+    }
+    .form-popup {
+        width: 450px;
+    }
+    .form-container a img {
+        height: 20px;
+    }
+    .form-container h3 {
+        font-size: 16px;
+    }
+    .form-container .prize_head {
+        margin-bottom: 15px;
+    }
+    .form-container .single_prize .head h5 {
+        font-size: 16px;
+    }
+    .form-container .single_prize .head .month {
+        padding: 0px 15px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .form-container .single_prize .head {
+        margin-bottom: 35px;
+    }
+    .form-container .single_prize .body ul li {
+        font-size: 10px;
+    }
+    .checkout_gurop ul {
+        margin-top: 15px;
+    }
+    .form-container .single_prize {
+        margin-bottom: 15px;
+    }
+    .form-container .btn {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .checkout_gurop .logo img {
+        height: 80px;
+    }
+    .checkout_gurop ul li {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .checkout_gurop .express_checkout h2 {
+        font-size: 12px;
+        top: -18px;
+        padding: 0 12px;
+    }
+    .checkout_gurop .express_checkout {
+        padding: 25px 0;
+    }
+    .checkout_gurop .express_checkout a {
+        margin-right: 0px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .checkout_gurop .poppup h4 {
+        font-size: 12px;
+    }
+    .checkout_gurop .poppup h4 button img {
+        height: 20px;
+    }
+    .checkout_gurop .page_link {
+        font-size: 12px;
+    }
+    .checkout_gurop .page_link h6 {
+        font-size: 12px;
+    }
+    .contactinformation_form .form_heading {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .contactinformation_form .form_heading h3 {
+        font-size: 12px;
+    }
+    .contactinformation_form .form_heading h4 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .contactinformation_form label {
+        margin-top: 1px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contactinformation_form input {
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .contactinformation_form .country_adderss select {
+        height: 32px;
+    }
+    .contactinformation_form button {
+        font-size: 13px;
+        margin-top: 5px;
+        width: 188px;
+        height: 50px;
+    }
+    .discount .product .product_info .text h4 {
+        font-size: 11px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .discount .discount_box input {
+        padding: 3px;
+        width: 65%;
+        margin-right: 0px;
+        margin-top: 4px;
+    }
+    .discount .discount_box button {
+        font-size: 12px;
+        padding: 6px 21px;
+        margin-top: 2px;
+    }
+    .discount .subtotal_prize .text1 {
+        font-size: 12px;
+    }
+    .discount .subtotal_prize .text1 p {
+        font-size: 12px;
+    }
+    .discount .subtotal_prize .text2 p {
+        font-size: 12px;
+    }
+    .discount .total_prize p span {
+        font-size: 20px;
+    }
+     ::placeholder {
+        font-size: 10px;
+    }
+    .form-container a img {
+        height: 15px;
+    }
+    .form-container h3 {
+        font-size: 16px;
+    }
+    .form-container p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .form-container .prize_head {
+        margin-bottom: 10px;
+    }
+    .form-container .prize_head span {
+        font-weight: 400;
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    .form-container .single_prize {
+        margin-bottom: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+    .form-container .single_prize .head {
+        margin-bottom: 30px;
+    }
+    .form-container .single_prize .head h5 {
+        font-size: 12px;
+    }
+    .form-container .single_prize .head .month {
+        padding: 1px 14px;
+        font-size: 10px;
+    }
+    .form-container .btn {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .discount {
+        padding-top: 50px;
+    }
+    .checkout_gurop .logo img {
+        height: 80px;
+    }
+    .checkout_gurop ul li {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .checkout_gurop .express_checkout h2 {
+        font-size: 12px;
+        top: -18px;
+        padding: 0 12px;
+    }
+    .checkout_gurop .express_checkout {
+        padding: 25px 0;
+    }
+    .checkout_gurop .express_checkout a {
+        margin-right: 0px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .checkout_gurop .poppup h4 {
+        font-size: 12px;
+    }
+    .checkout_gurop .poppup h4 button img {
+        height: 20px;
+    }
+    .checkout_gurop .page_link {
+        font-size: 12px;
+    }
+    .checkout_gurop .page_link h6 {
+        font-size: 12px;
+    }
+    .contactinformation_form .form_heading {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .contactinformation_form .form_heading h3 {
+        font-size: 12px;
+    }
+    .contactinformation_form .form_heading h4 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .contactinformation_form label {
+        margin-top: 1px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contactinformation_form input {
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .contactinformation_form .country_adderss select {
+        height: 32px;
+    }
+    .contactinformation_form button {
+        font-size: 13px;
+        margin-top: 5px;
+        width: 188px;
+        height: 50px;
+    }
+    .discount .product .product_info .text h4 {
+        font-size: 11px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .discount .discount_box input {
+        padding: 3px;
+        width: 65%;
+        margin-right: 0px;
+        margin-top: 4px;
+    }
+    .discount .discount_box button {
+        font-size: 12px;
+        padding: 6px 21px;
+        margin-top: 2px;
+    }
+    .discount .subtotal_prize .text1 {
+        font-size: 12px;
+    }
+    .discount .subtotal_prize .text1 p {
+        font-size: 12px;
+    }
+    .discount .subtotal_prize .text2 p {
+        font-size: 12px;
+    }
+    .discount .total_prize p span {
+        font-size: 20px;
+    }
+     ::placeholder {
+        font-size: 10px;
+    }
+    .form-container a img {
+        height: 15px;
+    }
+    .form-container h3 {
+        font-size: 16px;
+    }
+    .form-container p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .form-container .prize_head {
+        margin-bottom: 10px;
+    }
+    .form-container .prize_head span {
+        font-weight: 400;
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    .form-container .single_prize {
+        margin-bottom: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+    .form-container .single_prize .head {
+        margin-bottom: 30px;
+    }
+    .form-container .single_prize .head h5 {
+        font-size: 12px;
+    }
+    .form-container .single_prize .head .month {
+        padding: 1px 14px;
+        font-size: 10px;
+    }
+    .form-container .btn {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 575.98px) {
+    /*======================
+    Index Page Css
+========================*/
+    .discount {
+        padding-top: 50px;
+    }
+    .checkout_gurop .logo img {
+        height: 80px;
+    }
+    .checkout_gurop ul li {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .checkout_gurop .express_checkout h2 {
+        font-size: 12px;
+        top: -18px;
+        padding: 0 12px;
+    }
+    .checkout_gurop .express_checkout {
+        padding: 25px 0;
+    }
+    .checkout_gurop .express_checkout a {
+        margin-right: 0px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .checkout_gurop .poppup h4 {
+        font-size: 12px;
+    }
+    .checkout_gurop .poppup h4 button img {
+        height: 20px;
+    }
+    .checkout_gurop .page_link {
+        font-size: 12px;
+    }
+    .checkout_gurop .page_link h6 {
+        font-size: 12px;
+    }
+    .contactinformation_form .form_heading {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .contactinformation_form .form_heading h3 {
+        font-size: 12px;
+    }
+    .contactinformation_form .form_heading h4 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .contactinformation_form label {
+        margin-top: 1px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contactinformation_form input {
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .contactinformation_form .country_adderss select {
+        height: 32px;
+    }
+    .contactinformation_form button {
+        font-size: 13px;
+        margin-top: 5px;
+        width: 188px;
+        height: 50px;
+    }
+    .discount .product .product_info .text h4 {
+        font-size: 11px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .discount .discount_box input {
+        padding: 3px;
+        width: 65%;
+        margin-right: 0px;
+        margin-top: 4px;
+    }
+    .discount .discount_box button {
+        font-size: 12px;
+        padding: 6px 21px;
+        margin-top: 2px;
+    }
+    .discount .subtotal_prize .text1 {
+        font-size: 12px;
+    }
+    .discount .subtotal_prize .text1 p {
+        font-size: 12px;
+    }
+    .discount .subtotal_prize .text2 p {
+        font-size: 12px;
+    }
+    .discount .total_prize p span {
+        font-size: 20px;
+    }
+     ::placeholder {
+        font-size: 10px;
+    }
+    .form-container a img {
+        height: 15px;
+    }
+    .form-container h3 {
+        font-size: 16px;
+    }
+    .form-container p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .form-container .prize_head {
+        margin-bottom: 10px;
+    }
+    .form-container .prize_head span {
+        font-weight: 400;
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    .form-container .single_prize {
+        margin-bottom: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+    .form-container .single_prize .head {
+        margin-bottom: 30px;
+    }
+    .form-container .single_prize .head h5 {
+        font-size: 12px;
+    }
+    .form-container .single_prize .head .month {
+        padding: 1px 14px;
+        font-size: 10px;
+    }
+    .form-container .btn {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+}
